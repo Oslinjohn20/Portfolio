@@ -8,7 +8,7 @@ function landingpage() {
 				<Cell col={12}>
 					<div className="avatar-card">
 						<img
-							src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fst3.depositphotos.com%2F10665628%2F16844%2Fv%2F1600%2Fdepositphotos_168445462-stock-illustration-young-afro-man-avatar-character.jpg&f=1&nofb=1"
+							src={require("./profile.jpeg")}
 							alt="avatar"
 							className="avatar-img"
 						/>
@@ -24,7 +24,7 @@ function landingpage() {
 						<div className="social-links">
 							{/* LinkedIn */}
 							<a
-								href="https://www.linkedin.com/feed/?trk=nav_back_to_linkedin"
+								href="https://www.linkedin.com/in/oslin-johnson-9400691ab"
 								rel="noopener noreferrer"
 								target="_blank"
 							>

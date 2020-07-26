@@ -6,7 +6,7 @@ import Main from "./components/main";
 
 function App() {
 	return (
-		<div className="demo-big-content">
+		<div className="">
 			<Layout>
 				<Header
 					className="header-color"
@@ -18,7 +18,7 @@ function App() {
 					scroll
 				>
 					<Navigation>
-						<Link to="/cv">CV</Link>
+						<Link to="/testimonial">Testimonials</Link>
 						<Link to="/aboutme">About Me</Link>
 						<Link to="/contact">Contact</Link>
 						<Link to="/projects">Projects</Link>
@@ -32,7 +32,7 @@ function App() {
 					}
 				>
 					<Navigation>
-						<Link to="/cv">CV</Link>
+						<Link to="/testimonial">Testimonials</Link>
 						<Link to="/aboutme">About Me</Link>
 						<Link to="/contact">Contact</Link>
 						<Link to="/projects">Projects</Link>

@@ -31,14 +31,12 @@ function projects() {
 					Github Finder
 					<p>
 						This is a react-app that finds users on github, using any
-						characters. This is also my first React project I have done{" "}
+						characters.
 					</p>
 				</CardText>
 				<CardActions border>
 					<Button colored>
-						<a href="https://github.com/Oslinjohn20/github-project-finder">
-							Github
-						</a>
+						<a href="https://githubfinder0023.netlify.app/">Live demo</a>
 					</Button>
 				</CardActions>
 				<CardMenu style={{ color: "#fff" }}></CardMenu>
@@ -63,18 +61,17 @@ function projects() {
 					Contact Kepper
 					<p>
 						Thsi react-app is connected with a MongoDB server that allows user
-						to create an account and add contacts,edit them and remove them as
-						well{" "}
+						to store contacts
 					</p>
 				</CardText>
 				<CardActions border>
 					<Button colored>
 						<a
-							href="https://github.com/Oslinjohn20/Contact-Keeper-api-"
+							href="https://powerful-stream-30459.herokuapp.com/"
 							rel="noopener noreferrer"
 							target="_blank"
 						>
-							Github
+							Live demo
 						</a>
 					</Button>
 				</CardActions>
@@ -100,35 +97,24 @@ function projects() {
 					/>
 					IT-Logger
 					<p>
-						A react-app that stores work done and problems that can be logged,
-						which the IT techinian should attend . This app also allows user to
-						add, remove, edit and remove techinians. It is also saved on a
-						server.
+						A react-app that stores work done and problems that can be logged.
 					</p>
 				</CardText>
 				<CardActions border>
 					<Button colored>
 						<a
-							href="https://github.com/Oslinjohn20/IT-Logger"
+							href="https://fervent-hoover-6acb9b.netlify.app"
 							rel="noopener noreferrer"
 							target="_blank"
 						>
-							Github
+							Live demo
 						</a>
 					</Button>
 				</CardActions>
 				<CardMenu style={{ color: "#fff" }}></CardMenu>
 			</Card>
-			<Button>
-				<a
-					href=" https://github.com/Oslinjohn20?tab=repositories "
-					rel="noopener noreferrer"
-					target="_blank"
-					className="link-text"
-				>
-					For more projects visit
-				</a>
-			</Button>
+
+		
 		</div>
 	);
 }
