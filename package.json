@@ -2,6 +2,10 @@
 	"name": "portfolio",
 	"version": "0.1.0",
 	"private": true,
+<<<<<<< HEAD
+=======
+	"homepage": "http://Oslinjohn20.github.io/portfolio",
+>>>>>>> a98355831af70d4cb611e2f27950cd7ccbdc6607
 	"dependencies": {
 		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.5.0",
